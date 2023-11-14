@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html forms</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <p class="city">trying out css linking</p>
+
+    <h1>HTML Form</h1>
+<form action="" method="GET">
+<label for= "firstname">First name</label>
+<input type="text" placeholder="enter
+ first name" id="firstname" name="firstname" required>
+<br><br>
+<label for="lastname">Last Name</label>
+<input type="text" placeholder="enter Last Name" 
+id="lastname" name="lastname" required>
+<br><br>
+<label for="email">email</form>
+<input type="email" placeholder="enter email" id="email"
+name="email">
+<br> <br>
+<label for="password">Password</form>
+<input type="password" placeholder="enter password" id="password"
+name="password">
+<label for="confirmpassword">confirm
+password</label>
+<input type="password" placeholder="enter password" id="confirmpassword"
+name="confirmpassword">
+
+<hr>
+
+<label>Gender</label>
+<br><br>
+<label for="male">Male</label>
+<input type="radio" name="gender" id="male" value="male">
+<label for="female">Female</label>
+<input type="radio" name="gender" id="female"
+value="female">
+<br><br>
+
+
+<label>Qualification</label><br><br>
+<label for="bsc">B.sc</label>
+<input type="checkbox" id="bsc"name="Qualification" value="bsc">
+<label for="msc">M.sc</label>
+<input type="checkbox" id="msc"name="Qualification" value="msc"> 
+<label for="phd">P.hd</label>
+<input type="checkbox" id="phd"name="Qualification" value="phd"> 
+<label for="hnd">H.nd</label>
+<input type="checkbox" id="hnd"name="Qualification" value="hnd"> 
+
+<label for="cv">Upload Cv</label>
+<input type="file" name="cv" id="cv">
+<br><br>
+<label for="cv">Upload Cv</label>
+<input type="file" name="cv" id="cv" multiple>
+
+<label for="date">date</label>
+<input type="date" name="dateOfBirth" id="date">
+<br><br>
+
+<label for="country">Nationality</label>
+<select name="country" id="country" required> 
+    <option value="Nigeria">Nigeria</option>
+    <option value="Canada">Canada</option>
+    <option value="UK">UK</option>
+    <option value="Somalia">Somalia</option>
+</select><br><br>
+
+<label for="comments"></label>
+<textarea name="comments" id="comments"
+cols="30" rows="10"></textarea>
+
+
+<input type="submit" value="submit">
+<input type="reset" value="reset">
+</form>
+
+
+
+
+    
+</body>
+</html>

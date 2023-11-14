@@ -1,0 +1,237 @@
+/* body {
+    background-color: green;
+    color: white;
+} */
+
+
+table {
+    width: 100%;
+}
+
+table, th, td {
+
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+}
+
+td{
+
+    text-align: center;
+}
+
+/* tr:nth-child(even) {
+background-color: bisque;
+} */
+tr:nth-child(odd) {
+background-color: bisque;
+}
+
+/* th{
+    font-weight: 900;
+    font-size: 20px;
+} */
+
+#lagos-city {
+    background-color: blueviolet;
+    color:white;
+}
+
+.city {
+    background-color: coral;
+    color: white;
+}
+
+
+.character {
+    color: chocolate;
+}
+
+/* start of forms styling */
+
+
+/* end of forms styling */
+textarea {
+        resize:none;
+}
+
+/* div p {
+    font-size: 40px;
+} */
+div > p {
+    font-size: 40px;
+}
+div + button {
+    width: 100px;
+    height: 50px;
+     background-color: blue;
+     font-size: 20px;
+}
+
+div + button:hover {
+
+    background-color:  rgba(0, 0, 255, 0.5);
+
+}
+
+.picture {
+background-image: url(../images/farzad-p-xSl33Wxyc-unsplash\(1\).jpg);
+background-size: 600px 400px;
+background-attachment: fixed;
+
+
+background-repeat: no-repeat;
+background-position:top center;,
+
+height:900px;
+
+}
+
+.margin-top {
+    margin-top: 30px;
+}
+
+.margin-left {
+    margin-left: 30px;
+}
+
+.pro-ad-button {
+
+    text-decoration: none;
+    color:black;
+    background: green;
+    padding: 10px 15px;
+    border: 1px solid black ;
+
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+ 
+/* h1.hidden {
+    visibility: hidden;
+} */
+
+h1.hidden {
+    visibility: hidden;
+}
+
+div.ex1 {
+    width: 800px;
+    margin: auto;
+    border: 3px solid green;
+}
+
+div.ex2 {
+    max-width: 800px;
+    min-width: 500px;
+    margin: auto;
+    border: 3px solid green
+}
+
+.relative {
+    position: relative;
+    width: 700px;
+     left: 30px; 
+    border: 3px solid green
+}
+
+.relative-2 {
+   position: relative; 
+   width: 400px;
+   height: 200px;
+   border: 3px solid green;
+}
+
+.absolute {
+   position: absolute; 
+    top: 80px;
+   left: 0;
+   width: 200px;
+   height: 100px;
+   border: 3px solid green
+}
+
+.fixed {
+    position: fixed; 
+     bottom: 0px;
+    right: 0;
+    width: 300px;  
+    border: 3px solid green
+ }
+
+ .sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color: green;
+    border: 2px solid #4CAF50;
+  }
+
+  .flex-container-4 {
+    display: flex;
+    background-color: blue;
+    flex-direction: row;
+}
+
+.flex-container-4> div {
+background-color: white;
+margin: 10px;
+padding: 20px;
+font-size: 30px;
+}/9
+
+
+.flex-container-5 {
+    /* display: nowflex; */
+    flex-wrap: wrap;
+    background-color: DodgerBlue;
+  }
+  .flex-container-5 > div {
+    background-color: #f1f1f1;,
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+
+  .flex-container-Assignment-2{
+    display: flex;
+    background-color: red;
+    width: 390px;
+    margin-left: 100px;
+  }
+
+  .flex-container-Assignment-2 > div {
+    background-color: limegreen;
+    margin: 10px;
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .semi-container1 {
+    display: flex;
+    text-align: center;
+    width: 260px;
+    color: white;7
+
+  }
+
+  .semi-container1 > button {
+    background-color: rgba(255, 166, 0, 0.74);
+    text-align: center;
+    display: flex;
+    width: 80px;
+    padding: 15px;
+    align-self: flex-end;
+    margin: 5px;
+    color: white;
+ }
